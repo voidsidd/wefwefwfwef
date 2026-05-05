@@ -1,0 +1,20 @@
+[
+  {
+    "repo": "DefinitelyTyped/DefinitelyTyped",
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "stars": 51207,
+    "issues": [],
+    "code_issues": [
+      "TODO/FIXME: /tmp/tmpc0o38tpj/types/ical/index.d.ts:export type CalendarComponentType = \"VEVENT\" | \"VTODO\" | \"VJO",
+      "TODO/FIXME: /tmp/tmpc0o38tpj/types/aws-synthetics-puppeteer/src/SyntheticsLogger.d.ts:        LOG_LEVEL_DEBUG: n",
+      "TODO/FIXME: /tmp/tmpc0o38tpj/types/js-quantities/js-quantities-tests.ts:            // TODO: Swap toBeCloseTo wi",
+      "TODO/FIXME: /tmp/tmpc0o38tpj/types/js-quantities/js-quantities-tests.ts:            // TODO: Should we convert d",
+      "TODO/FIXME: /tmp/tmpc0o38tpj/types/js-quantities/js-quantities-tests.ts:            // TODO: Should we convert \"",
+      "Found leftover console.log statements"
+    ],
+    "low_hanging_fruit": [
+      "README mentions deprecated items",
+      "Missing CONTRIBUTING.md file"
+    ]
+  }
+]

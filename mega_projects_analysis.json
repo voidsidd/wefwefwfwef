@@ -1,0 +1,784 @@
+[
+  {
+    "repo": "pallets/flask",
+    "full_name": "pallets/flask",
+    "url": "https://github.com/pallets/flask",
+    "stars": 71489,
+    "language": "Python",
+    "forks": 16833,
+    "watchers": 71489,
+    "open_issues": 3,
+    "last_push": "2026-05-02T13:14:04Z",
+    "created": "2010-04-06T11:11:59Z",
+    "opportunity_issues": [],
+    "pr_ideas": [
+      "Add missing CONTRIBUTING.md",
+      "Add missing .github/ISSUE_TEMPLATE.md",
+      "Add missing .github/PULL_REQUEST_TEMPLATE.md"
+    ]
+  },
+  {
+    "repo": "django/django",
+    "full_name": "django/django",
+    "url": "https://github.com/django/django",
+    "stars": 87406,
+    "language": "Python",
+    "forks": 33836,
+    "watchers": 87406,
+    "open_issues": 432,
+    "last_push": "2026-05-04T21:09:21Z",
+    "created": "2012-04-28T02:47:18Z",
+    "opportunity_issues": [],
+    "pr_ideas": [
+      "Add Contributing guide to README",
+      "Add missing CONTRIBUTING.md",
+      "Add missing .github/ISSUE_TEMPLATE.md",
+      "Add missing .github/PULL_REQUEST_TEMPLATE.md"
+    ]
+  },
+  {
+    "repo": "apache/airflow",
+    "full_name": "apache/airflow",
+    "url": "https://github.com/apache/airflow",
+    "stars": 45286,
+    "language": "Python",
+    "forks": 16998,
+    "watchers": 45286,
+    "open_issues": 1766,
+    "last_push": "2026-05-05T13:59:23Z",
+    "created": "2015-04-13T18:04:58Z",
+    "opportunity_issues": [
+      {
+        "title": "The \"docker is not running\" error when using a GitHub codespace",
+        "number": 62405,
+        "url": "https://github.com/apache/airflow/issues/62405",
+        "labels": [
+          "kind:bug",
+          "area:dev-env",
+          "good first issue",
+          "kind:documentation",
+          "needs-triage"
+        ],
+        "created": "2026-02-24T11:24:16Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "reattach_on_restart doesn't work properly as exepected",
+        "number": 39791,
+        "url": "https://github.com/apache/airflow/issues/39791",
+        "labels": [
+          "kind:bug",
+          "area:providers",
+          "good first issue",
+          "pending-response",
+          "provider:cncf-kubernetes"
+        ],
+        "created": "2024-05-23T16:51:44Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "[AIP-94] airflowctl tasks: add TasksOperations and TaskInstancesOperations to operations.py",
+        "number": 66173,
+        "url": "https://github.com/apache/airflow/issues/66173",
+        "labels": [
+          "area:CLI",
+          "kind:feature",
+          "area:API",
+          "good first issue",
+          "kind:meta",
+          "area:airflow-ctl"
+        ],
+        "created": "2026-04-30T19:01:40Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "[AIP-94] airflowctl dags: add next-execution command",
+        "number": 66172,
+        "url": "https://github.com/apache/airflow/issues/66172",
+        "labels": [
+          "kind:feature",
+          "good first issue",
+          "kind:meta",
+          "area:airflow-ctl"
+        ],
+        "created": "2026-04-30T18:51:11Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "[AIP-94] airflowctl tasks: add states-for-dag-run command",
+        "number": 66175,
+        "url": "https://github.com/apache/airflow/issues/66175",
+        "labels": [
+          "area:CLI",
+          "kind:feature",
+          "good first issue",
+          "kind:meta",
+          "area:airflow-ctl"
+        ],
+        "created": "2026-04-30T19:16:23Z",
+        "difficulty": "good first issue"
+      }
+    ],
+    "pr_ideas": [
+      "Add missing CONTRIBUTING.md",
+      "Add missing .github/ISSUE_TEMPLATE.md"
+    ]
+  },
+  {
+    "repo": "pytorch/pytorch",
+    "full_name": "pytorch/pytorch",
+    "url": "https://github.com/pytorch/pytorch",
+    "stars": 99644,
+    "language": "Python",
+    "forks": 27659,
+    "watchers": 99644,
+    "open_issues": 18517,
+    "last_push": "2026-05-05T13:57:36Z",
+    "created": "2016-08-13T05:26:41Z",
+    "opportunity_issues": [
+      {
+        "title": "Improve error message for wrong number of arguments in CachingAutotuner",
+        "number": 146018,
+        "url": "https://github.com/pytorch/pytorch/issues/146018",
+        "labels": [
+          "good first issue",
+          "module: error checking",
+          "triaged",
+          "better-engineering",
+          "actionable",
+          "ciflow/trunk",
+          "oncall: pt2",
+          "module: inductor",
+          "module: compile ux"
+        ],
+        "created": "2025-01-30T03:48:52Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "torch.eye(d) is slow and hogs cpu for d >= 182",
+        "number": 48251,
+        "url": "https://github.com/pytorch/pytorch/issues/48251",
+        "labels": [
+          "module: performance",
+          "good first issue",
+          "module: cpu",
+          "triaged",
+          "module: multithreading"
+        ],
+        "created": "2020-11-19T10:34:50Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "Use typing_extensions.TypeAliasType for better reexport of `__module__`",
+        "number": 171905,
+        "url": "https://github.com/pytorch/pytorch/issues/171905",
+        "labels": [
+          "good first issue",
+          "module: typing",
+          "module: lint",
+          "triaged",
+          "actionable"
+        ],
+        "created": "2026-01-07T19:42:19Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "[BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional",
+        "number": 133443,
+        "url": "https://github.com/pytorch/pytorch/issues/133443",
+        "labels": [
+          "good first issue",
+          "triaged",
+          "actionable",
+          "oncall: pt2",
+          "module: pt2-dispatcher",
+          "module: user triton"
+        ],
+        "created": "2024-08-14T14:19:43Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'",
+        "number": 122129,
+        "url": "https://github.com/pytorch/pytorch/issues/122129",
+        "labels": [
+          "good first issue",
+          "triaged",
+          "oncall: pt2",
+          "module: dynamic shapes",
+          "module: pt2-dispatcher",
+          "llm-amenable",
+          "PT2-Bug-Bash"
+        ],
+        "created": "2024-03-18T20:37:43Z",
+        "difficulty": "good first issue"
+      }
+    ],
+    "pr_ideas": [
+      "Add Contributing guide to README",
+      "Add missing .github/ISSUE_TEMPLATE.md",
+      "Add missing .github/PULL_REQUEST_TEMPLATE.md"
+    ]
+  },
+  {
+    "repo": "facebook/react",
+    "full_name": "facebook/react",
+    "url": "https://github.com/facebook/react",
+    "stars": 244823,
+    "language": "JavaScript",
+    "forks": 50995,
+    "watchers": 244823,
+    "open_issues": 1277,
+    "last_push": "2026-05-02T08:50:41Z",
+    "created": "2013-05-24T16:15:54Z",
+    "opportunity_issues": [
+      {
+        "title": "\"Should not already be working\" in Firefox after a breakpoint/alert",
+        "number": 17355,
+        "url": "https://github.com/facebook/react/issues/17355",
+        "labels": [
+          "Type: Bug",
+          "Difficulty: medium",
+          "Type: Needs Investigation",
+          "good first issue"
+        ],
+        "created": "2019-11-13T16:35:19Z",
+        "difficulty": "good first issue"
+      }
+    ],
+    "pr_ideas": [
+      "Add missing .github/ISSUE_TEMPLATE.md"
+    ]
+  },
+  {
+    "repo": "microsoft/TypeScript",
+    "full_name": "microsoft/TypeScript",
+    "url": "https://github.com/microsoft/TypeScript",
+    "stars": 108752,
+    "language": "TypeScript",
+    "forks": 13383,
+    "watchers": 108752,
+    "open_issues": 5033,
+    "last_push": "2026-05-04T00:53:56Z",
+    "created": "2014-06-17T15:28:39Z",
+    "opportunity_issues": [
+      {
+        "title": "Enum keys not accepted as computed properties if their name is not a valid identifier",
+        "number": 25083,
+        "url": "https://github.com/microsoft/TypeScript/issues/25083",
+        "labels": [
+          "Bug",
+          "Good First Issue",
+          "Domain: enum"
+        ],
+        "created": "2018-06-20T05:17:16Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "Confusing error message for labels used before definition",
+        "number": 30408,
+        "url": "https://github.com/microsoft/TypeScript/issues/30408",
+        "labels": [
+          "Suggestion",
+          "Help Wanted",
+          "Good First Issue",
+          "Effort: Moderate",
+          "Domain: Error Messages",
+          "Experience Enhancement"
+        ],
+        "created": "2019-03-14T20:09:35Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "TS is overly picky when declaring a class constructor type",
+        "number": 29707,
+        "url": "https://github.com/microsoft/TypeScript/issues/29707",
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: classes"
+        ],
+        "created": "2019-02-03T04:58:29Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "Sort jsdoc parameter suggestions by argument position ",
+        "number": 20183,
+        "url": "https://github.com/microsoft/TypeScript/issues/20183",
+        "labels": [
+          "Suggestion",
+          "Help Wanted",
+          "Good First Issue",
+          "Domain: LS: Completion Lists",
+          "VS Code Tracked"
+        ],
+        "created": "2017-11-21T07:34:15Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "getDefinitionAtPosition doesn't distinguish different kinds in a merged declaration",
+        "number": 22467,
+        "url": "https://github.com/microsoft/TypeScript/issues/22467",
+        "labels": [
+          "Bug",
+          "Help Wanted",
+          "Domain: API",
+          "Good First Issue"
+        ],
+        "created": "2018-03-10T21:54:31Z",
+        "difficulty": "good first issue"
+      }
+    ],
+    "pr_ideas": [
+      "Add Contributing guide to README",
+      "Add missing .github/ISSUE_TEMPLATE.md",
+      "Add missing .github/PULL_REQUEST_TEMPLATE.md"
+    ]
+  },
+  {
+    "repo": "nodejs/node",
+    "full_name": "nodejs/node",
+    "url": "https://github.com/nodejs/node",
+    "stars": 117038,
+    "language": "JavaScript",
+    "forks": 35477,
+    "watchers": 117038,
+    "open_issues": 2648,
+    "last_push": "2026-05-05T12:46:55Z",
+    "created": "2014-11-26T19:57:11Z",
+    "opportunity_issues": [
+      {
+        "title": "Runtime-deprecate calling digest() on HMAC more than once",
+        "number": 62838,
+        "url": "https://github.com/nodejs/node/issues/62838",
+        "labels": [
+          "crypto",
+          "good first issue",
+          "security"
+        ],
+        "created": "2026-04-20T05:05:11Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "test_runner: node:coverage ignore comments exclude DA but leave BRDA in lcov output",
+        "number": 61586,
+        "url": "https://github.com/nodejs/node/issues/61586",
+        "labels": [
+          "good first issue",
+          "test_runner"
+        ],
+        "created": "2026-01-30T11:53:32Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "webstreams: narrow `ReadableStreamBYOBRequest.view` to `Uint8Array`",
+        "number": 62952,
+        "url": "https://github.com/nodejs/node/issues/62952",
+        "labels": [
+          "good first issue",
+          "web streams",
+          "web-standards"
+        ],
+        "created": "2026-04-25T11:13:40Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "crypto,quic: missing NULL checks for OpenSSL allocation functions",
+        "number": 62774,
+        "url": "https://github.com/nodejs/node/issues/62774",
+        "labels": [
+          "crypto",
+          "good first issue"
+        ],
+        "created": "2026-04-16T13:26:36Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "Cpplint produces false positives for FastApiOptions",
+        "number": 45761,
+        "url": "https://github.com/nodejs/node/issues/45761",
+        "labels": [
+          "c++",
+          "good first issue",
+          "python"
+        ],
+        "created": "2022-12-06T14:41:15Z",
+        "difficulty": "good first issue"
+      }
+    ],
+    "pr_ideas": [
+      "Add missing .github/ISSUE_TEMPLATE.md"
+    ]
+  },
+  {
+    "repo": "vuejs/vue",
+    "full_name": "vuejs/vue",
+    "url": "https://github.com/vuejs/vue",
+    "stars": 209772,
+    "language": "TypeScript",
+    "forks": 33822,
+    "watchers": 209772,
+    "open_issues": 622,
+    "last_push": "2024-10-10T07:24:15Z",
+    "created": "2013-07-29T03:24:51Z",
+    "opportunity_issues": [
+      {
+        "title": "Wrong definition of the type AsyncComponentFactory",
+        "number": 10252,
+        "url": "https://github.com/vuejs/vue/issues/10252",
+        "labels": [
+          "good first issue",
+          "typescript",
+          "has PR"
+        ],
+        "created": "2019-07-10T01:55:05Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "Throw error when using interpolation instead of JS expression for slot names",
+        "number": 9038,
+        "url": "https://github.com/vuejs/vue/issues/9038",
+        "labels": [
+          "feature request",
+          "good first issue",
+          "has PR"
+        ],
+        "created": "2018-11-07T10:48:56Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "warn if $set is used on a property that already exist",
+        "number": 8129,
+        "url": "https://github.com/vuejs/vue/issues/8129",
+        "labels": [
+          "feature request",
+          "good first issue",
+          "has PR"
+        ],
+        "created": "2018-05-04T02:03:18Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "Creating a component named map should warn the user (as with button)",
+        "number": 8025,
+        "url": "https://github.com/vuejs/vue/issues/8025",
+        "labels": [
+          "contribution welcome",
+          "improvement",
+          "good first issue",
+          "has PR"
+        ],
+        "created": "2018-04-14T10:14:58Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "Warn if colon shorthand is used on v-if/v-html/etc.",
+        "number": 10191,
+        "url": "https://github.com/vuejs/vue/issues/10191",
+        "labels": [
+          "contribution welcome",
+          "feature request",
+          "good first issue",
+          "has PR",
+          "warnings"
+        ],
+        "created": "2019-06-25T10:15:50Z",
+        "difficulty": "good first issue"
+      }
+    ],
+    "pr_ideas": [
+      "Add Contributing guide to README",
+      "Add missing CONTRIBUTING.md",
+      "Add missing .github/ISSUE_TEMPLATE.md"
+    ]
+  },
+  {
+    "repo": "angular/angular",
+    "full_name": "angular/angular",
+    "url": "https://github.com/angular/angular",
+    "stars": 100048,
+    "language": "TypeScript",
+    "forks": 27188,
+    "watchers": 100048,
+    "open_issues": 1162,
+    "last_push": "2026-05-04T20:05:59Z",
+    "created": "2014-09-18T16:12:01Z",
+    "opportunity_issues": [
+      {
+        "title": "docs: Allow users to compare answers to work in progress code in Tutorials",
+        "number": 52656,
+        "url": "https://github.com/angular/angular/issues/52656",
+        "labels": [
+          "good first issue",
+          "P3",
+          "area: docs-infra"
+        ],
+        "created": "2023-09-08T16:51:07Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "Forms should throw error if two or more NgModels appear in form with the same name",
+        "number": 13993,
+        "url": "https://github.com/angular/angular/issues/13993",
+        "labels": [
+          "feature",
+          "freq1: low",
+          "area: forms",
+          "state: has PR",
+          "good first issue",
+          "feature: under consideration"
+        ],
+        "created": "2017-01-18T19:07:25Z",
+        "difficulty": "good first issue"
+      }
+    ],
+    "pr_ideas": []
+  },
+  {
+    "repo": "golang/go",
+    "full_name": "golang/go",
+    "url": "https://github.com/golang/go",
+    "stars": 133738,
+    "language": "Go",
+    "forks": 18960,
+    "watchers": 133738,
+    "open_issues": 10093,
+    "last_push": "2026-05-04T21:28:08Z",
+    "created": "2014-08-19T04:33:40Z",
+    "opportunity_issues": [],
+    "pr_ideas": [
+      "Add missing .github/ISSUE_TEMPLATE.md",
+      "Add missing .github/PULL_REQUEST_TEMPLATE.md"
+    ]
+  },
+  {
+    "repo": "kubernetes/kubernetes",
+    "full_name": "kubernetes/kubernetes",
+    "url": "https://github.com/kubernetes/kubernetes",
+    "stars": 122073,
+    "language": "Go",
+    "forks": 42967,
+    "watchers": 122073,
+    "open_issues": 2663,
+    "last_push": "2026-05-05T13:26:22Z",
+    "created": "2014-06-06T22:56:04Z",
+    "opportunity_issues": [
+      {
+        "title": "tracker: improve the kubelet test coverage",
+        "number": 109717,
+        "url": "https://github.com/kubernetes/kubernetes/issues/109717",
+        "labels": [
+          "sig/node",
+          "help wanted",
+          "good first issue",
+          "needs-triage"
+        ],
+        "created": "2022-04-29T06:51:28Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold",
+        "number": 115823,
+        "url": "https://github.com/kubernetes/kubernetes/issues/115823",
+        "labels": [
+          "priority/backlog",
+          "kind/documentation",
+          "kind/cleanup",
+          "sig/node",
+          "help wanted",
+          "good first issue",
+          "triage/accepted"
+        ],
+        "created": "2023-02-16T09:02:13Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "Migrate DRA components to support granular authorization on status updates",
+        "number": 138149,
+        "url": "https://github.com/kubernetes/kubernetes/issues/138149",
+        "labels": [
+          "sig/network",
+          "sig/node",
+          "sig/auth",
+          "help wanted",
+          "good first issue",
+          "triage/accepted",
+          "wg/device-management"
+        ],
+        "created": "2026-04-01T15:12:39Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "add and use alternative APIs which support contextual logging",
+        "number": 126379,
+        "url": "https://github.com/kubernetes/kubernetes/issues/126379",
+        "labels": [
+          "area/logging",
+          "kind/feature",
+          "help wanted",
+          "sig/instrumentation",
+          "good first issue",
+          "triage/accepted",
+          "wg/structured-logging"
+        ],
+        "created": "2024-07-26T07:52:31Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "DRA: measure and track performance of \"experimental\" allocator",
+        "number": 135058,
+        "url": "https://github.com/kubernetes/kubernetes/issues/135058",
+        "labels": [
+          "kind/feature",
+          "help wanted",
+          "good first issue",
+          "needs-triage",
+          "wg/device-management"
+        ],
+        "created": "2025-11-03T13:09:39Z",
+        "difficulty": "good first issue"
+      }
+    ],
+    "pr_ideas": [
+      "Add Contributing guide to README",
+      "Add missing .github/ISSUE_TEMPLATE.md"
+    ]
+  },
+  {
+    "repo": "moby/moby",
+    "full_name": "moby/moby",
+    "url": "https://github.com/moby/moby",
+    "stars": 71525,
+    "language": "Go",
+    "forks": 18927,
+    "watchers": 71525,
+    "open_issues": 3817,
+    "last_push": "2026-05-05T12:41:57Z",
+    "created": "2013-01-18T18:10:57Z",
+    "opportunity_issues": [],
+    "pr_ideas": [
+      "Add Contributing guide to README",
+      "Add missing .github/ISSUE_TEMPLATE.md"
+    ]
+  },
+  {
+    "repo": "rust-lang/rust",
+    "full_name": "rust-lang/rust",
+    "url": "https://github.com/rust-lang/rust",
+    "stars": 112539,
+    "language": "Rust",
+    "forks": 14848,
+    "watchers": 112539,
+    "open_issues": 12335,
+    "last_push": "2026-05-05T13:44:30Z",
+    "created": "2010-06-16T20:39:03Z",
+    "opportunity_issues": [],
+    "pr_ideas": [
+      "Add missing .github/ISSUE_TEMPLATE.md",
+      "Add missing .github/PULL_REQUEST_TEMPLATE.md"
+    ]
+  },
+  {
+    "repo": "apache/kafka",
+    "full_name": "apache/kafka",
+    "url": "https://github.com/apache/kafka",
+    "stars": 32518,
+    "language": "Java",
+    "forks": 15167,
+    "watchers": 32518,
+    "open_issues": 359,
+    "last_push": "2026-05-05T11:10:45Z",
+    "created": "2011-08-15T18:06:16Z",
+    "opportunity_issues": [],
+    "pr_ideas": [
+      "Add Contributing guide to README",
+      "Add missing .github/ISSUE_TEMPLATE.md",
+      "Add missing .github/PULL_REQUEST_TEMPLATE.md"
+    ]
+  },
+  {
+    "repo": "elastic/elasticsearch",
+    "full_name": "elastic/elasticsearch",
+    "url": "https://github.com/elastic/elasticsearch",
+    "stars": 76637,
+    "language": "Java",
+    "forks": 25855,
+    "watchers": 76637,
+    "open_issues": 5694,
+    "last_push": "2026-05-05T13:53:42Z",
+    "created": "2010-02-08T13:20:56Z",
+    "opportunity_issues": [
+      {
+        "title": "ES|QL We need a warning when Lookup Join shadows a field from the main index",
+        "number": 147723,
+        "url": "https://github.com/elastic/elasticsearch/issues/147723",
+        "labels": [
+          ">bug",
+          "good first issue",
+          "Team:Analytics",
+          ":Analytics/ES|QL"
+        ],
+        "created": "2026-04-28T15:13:59Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "SecurityMigrationExecutor and SystemIndexMigrationExecutor should not be persistent tasks",
+        "number": 146662,
+        "url": "https://github.com/elastic/elasticsearch/issues/146662",
+        "labels": [
+          "good first issue",
+          ":Distributed/Distributed",
+          "Team:Distributed"
+        ],
+        "created": "2026-04-17T14:49:32Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "ESQL should support a humanize option to quickly render values in human readable way.",
+        "number": 136533,
+        "url": "https://github.com/elastic/elasticsearch/issues/136533",
+        "labels": [
+          ">enhancement",
+          "good first issue",
+          "Team:Analytics",
+          ":Analytics/ES|QL"
+        ],
+        "created": "2025-10-14T08:29:51Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "Share number based field mapper test code with other modules",
+        "number": 92947,
+        "url": "https://github.com/elastic/elasticsearch/issues/92947",
+        "labels": [
+          ">test",
+          "good first issue",
+          ":Search Foundations/Mapping",
+          "Team:Search Foundations"
+        ],
+        "created": "2023-01-16T12:12:12Z",
+        "difficulty": "good first issue"
+      },
+      {
+        "title": "Reindex requests do not implement x-content testing",
+        "number": 43456,
+        "url": "https://github.com/elastic/elasticsearch/issues/43456",
+        "labels": [
+          ">test",
+          "good first issue",
+          ":Distributed/Reindex",
+          "Team:Distributed",
+          ">tech-debt",
+          "v9.5.0"
+        ],
+        "created": "2019-06-20T20:39:47Z",
+        "difficulty": "good first issue"
+      }
+    ],
+    "pr_ideas": [
+      "Add Contributing guide to README",
+      "Add missing .github/ISSUE_TEMPLATE.md"
+    ]
+  }
+]
