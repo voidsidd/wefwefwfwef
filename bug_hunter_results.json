@@ -1,0 +1,1056 @@
+[
+  {
+    "repo": "pytorch/pytorch",
+    "url": "https://github.com/pytorch/pytorch",
+    "language": "python",
+    "issues": [
+      {
+        "type": "Pickle usage",
+        "file": "scripts/release_notes/classifier.py",
+        "severity": "high",
+        "description": "pickle can execute arbitrary code - security risk"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.c",
+        "line": "3409",
+        "content": "#if defined(DEBUG) || defined(_DEBUG)",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.c",
+        "line": "4172",
+        "content": "/* TODO: Better sanity check archive_size and the # of actual remaining bytes */",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.c",
+        "line": "4324",
+        "content": "/* FIXME: Remove this check? Is it necessary - we already check the filename. */",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.c",
+        "line": "5586",
+        "content": "/* TODO: parse local header extra data when local_header_comp_size is 0xFFFFFFFF! (big_descriptor.zi",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.c",
+        "line": "6160",
+        "content": "/* TODO: We could add a flag that lets the user start writing immediately AFTER the existing central",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.c",
+        "line": "6166",
+        "content": "/* TODO: We could easily maintain the sorted central directory offsets. */",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.c",
+        "line": "6179",
+        "content": "/* TODO: pArchive_name is a terrible name here! */",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.c",
+        "line": "7152",
+        "content": "/* TODO: This func is now pretty freakin complex due to zip64, split it up? */",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.c",
+        "line": "7203",
+        "content": "/* TODO: We don't support central dir's >= MZ_UINT32_MAX bytes right now (+32 fudge factor in case w",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.c",
+        "line": "7216",
+        "content": "/* TODO: Our zip64 support still has some 32-bit limits that may not be worth fixing. */",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.c",
+        "line": "7511",
+        "content": "/* TODO: Support central dirs >= 32-bits in size */",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.c",
+        "line": "7575",
+        "content": "MZ_WRITE_LE16(hdr + MZ_ZIP64_ECDH_VERSION_MADE_BY_OFS, 0x031E); /* TODO: always Unix */",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.h",
+        "line": "164",
+        "content": "/* TODO: Work around \"error: include file 'sys\\utime.h' when compiling with tcc on Linux */",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "third_party/miniz-3.0.2/miniz.h",
+        "line": "1300",
+        "content": "/* TODO */",
+        "severity": "medium"
+      }
+    ],
+    "total_found": 38
+  },
+  {
+    "repo": "facebook/react",
+    "url": "https://github.com/facebook/react",
+    "language": "javascript",
+    "issues": [
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/flight/config/webpack.config.js",
+        "line": "351",
+        "content": "// TODO: Merge this config once `image/avif` is in the mime-db",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/flight/src/index.js",
+        "line": "5",
+        "content": "// TODO: This should be a dependency of the App but we haven't implemented CSS in Node yet.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/flight/src/index.js",
+        "line": "149",
+        "content": "// TODO: This part doesn't actually work because the server only returns",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/flight/src/App.js",
+        "line": "243",
+        "content": "{prerender ? null : ( // TODO: prerender is broken for large content for some reason.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/flight/yarn.lock",
+        "line": "1533",
+        "content": "integrity sha512-DjwFA/9Iu3Z+vrAn+8pBUGcjhxKguSMlsFqeCKbhb9BAV756v0krzVK04CRDi/4aqmk8BsHb4a/gFcaA5jo",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/flight/yarn.lock",
+        "line": "2423",
+        "content": "integrity sha512-kZ/tNpS3NXn0mlXXXPNuDZnb4c0oZ20r4K5eemM2k30ZC3G0T02nXUvyhf5YdbXWHPEJLc9qGLxEZ216MdL",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/flight/yarn.lock",
+        "line": "2640",
+        "content": "integrity sha512-sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmO",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/flight/yarn.lock",
+        "line": "4282",
+        "content": "integrity sha512-yB5CNFa14MbPJcomwNh3wLThtkZgcNyI2bNMRt8iE5Z8Vwl7f8vQXFAzn2HDOJvtDq2NTZBUGMSUNNyrv3/",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/flight/yarn.lock",
+        "line": "8367",
+        "content": "integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQri",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/flight/server/region.js",
+        "line": "9",
+        "content": "// TODO: This seems to have no effect anymore. Remove?",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/ssr/yarn.lock",
+        "line": "5936",
+        "content": "integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQri",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/owner-stacks/yarn.lock",
+        "line": "1277",
+        "content": "integrity sha512-kZ/tNpS3NXn0mlXXXPNuDZnb4c0oZ20r4K5eemM2k30ZC3G0T02nXUvyhf5YdbXWHPEJLc9qGLxEZ216MdL",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/owner-stacks/yarn.lock",
+        "line": "8023",
+        "content": "integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQri",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/attribute-behavior/src/attributes.js",
+        "line": "372",
+        "content": "{name: 'contextMenu', read: getAttribute('contextmenu')}, // TODO: Read the property by rendering a ",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "fixtures/attribute-behavior/src/attributes.js",
+        "line": "759",
+        "content": "{name: 'form', read: getAttribute('form')}, // TODO: Read the property by rendering into a form with",
+        "severity": "medium"
+      }
+    ],
+    "total_found": 33
+  },
+  {
+    "repo": "microsoft/TypeScript",
+    "url": "https://github.com/microsoft/TypeScript",
+    "language": "typescript",
+    "issues": [
+      {
+        "type": "TODO/FIXME",
+        "file": "scripts/eslint/rules/no-array-mutating-method-expressions.cjs",
+        "line": "52",
+        "content": "// TODO(jakebailey): handle ts.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "scripts/eslint/rules/argument-trivia.cjs",
+        "line": "168",
+        "content": "// TODO(jakebailey): range should be whitespace",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "scripts/dtsBundler.mjs",
+        "line": "432",
+        "content": "// TODO: remove after https://github.com/microsoft/TypeScript/pull/58187 is released",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "Herebyfile.mjs",
+        "line": "884",
+        "content": "// TODO(rbuckton): Determine if we still need this task. Depending on a relative",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": ".github/copilot-instructions.md",
+        "line": "331",
+        "content": "+   // @ts-ignore DEBUG CODE ONLY, REMOVE ME WHEN DONE",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": ".github/copilot-instructions.md",
+        "line": "338",
+        "content": "// @ts-ignore DEBUG CODE ONLY, REMOVE ME WHEN DONE",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/services/jsDoc.ts",
+        "line": "404",
+        "content": "kind: ScriptElementKind.unknown, // TODO: should have its own kind?",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/services/jsDoc.ts",
+        "line": "428",
+        "content": "jsdoc.tags!.some(t => t !== tag && isJSDocParameterTag(t) && isIdentifier(t.name) && t.name.escapedT",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/services/jsDoc.ts",
+        "line": "517",
+        "content": "// * TODO: other tags.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/services/stringCompletions.ts",
+        "line": "499",
+        "content": "const moduleSpecifierSymbol = typeChecker.getSymbolAtLocation(moduleSpecifier); // TODO: GH#18217",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/services/stringCompletions.ts",
+        "line": "747",
+        "content": "const relativeDirectory = firstDefined(rootDirs, rootDirectory => containsPath(rootDirectory, script",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/services/completions.ts",
+        "line": "596",
+        "content": "All,                            // Every possible keyword (TODO: This is never appropriate)",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/services/completions.ts",
+        "line": "1912",
+        "content": "// TODO(drosen): Right now we just permit *all* semantic meanings when calling",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/services/completions.ts",
+        "line": "1968",
+        "content": "// TODO: support JS files.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/services/completions.ts",
+        "line": "2982",
+        "content": "return createCompletionDetailsForSymbol(symbol, symbolName, typeChecker, sourceFile, location, cance",
+        "severity": "medium"
+      }
+    ],
+    "total_found": 32
+  },
+  {
+    "repo": "vuejs/vue",
+    "url": "https://github.com/vuejs/vue",
+    "language": "typescript",
+    "issues": [
+      {
+        "type": "TODO/FIXME",
+        "file": "types/options.d.ts",
+        "line": "240",
+        "content": "// TODO: support properly inferred 'extends'",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "pnpm-lock.yaml",
+        "line": "5526",
+        "content": "resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7v",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": ".gitignore",
+        "line": "5",
+        "content": "TODOs.md",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/types/component.ts",
+        "line": "9",
+        "content": "// TODO this should be using the same as /component/",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/core/components/keep-alive.ts",
+        "line": "74",
+        "content": "// TODO defineComponent",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/compiler/codegen/index.ts",
+        "line": "440",
+        "content": "// TODO: this can be further optimized by properly analyzing in-scope bindings",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "CHANGELOG.md",
+        "line": "525",
+        "content": "- Types for `defineXXX` macros not supported yet",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "packages/compiler-sfc/src/compileScript.ts",
+        "line": "1483",
+        "content": "// TODO (nice to have) generate runtime property validation",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "packages/compiler-sfc/src/compileScript.ts",
+        "line": "1489",
+        "content": "// TODO (nice to have) generate runtime element type/length checks",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "packages/compiler-sfc/src/parseComponent.ts",
+        "line": "86",
+        "content": "scriptSetup: null, // TODO",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "packages/server-renderer/types/plugin.d.ts",
+        "line": "9",
+        "content": "// TODO DOUBLE CHECK HERE",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "packages/server-renderer/src/create-renderer.ts",
+        "line": "93",
+        "content": "// @ts-expect-error TODO improve",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "benchmarks/dbmon/lib/memory-stats.js",
+        "line": "58",
+        "content": "// TODO, add a sanity check to see if values are bucketed.",
+        "severity": "medium"
+      },
+      {
+        "type": "'any' type used",
+        "file": "types/jsx.d.ts",
+        "severity": "medium",
+        "description": "Found 10 uses of 'any' type (loses type safety)"
+      },
+      {
+        "type": "'any' type used",
+        "file": "src/v3/index.ts",
+        "severity": "medium",
+        "description": "Found 1 uses of 'any' type (loses type safety)"
+      }
+    ],
+    "total_found": 21
+  },
+  {
+    "repo": "nodejs/node",
+    "url": "https://github.com/nodejs/node",
+    "language": "javascript",
+    "issues": [
+      {
+        "type": "Async without await",
+        "file": "lib/internal/freeze_intrinsics.js",
+        "severity": "high",
+        "description": "async function but no await used - likely a bug"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "configure.py",
+        "line": "979",
+        "content": "help='build nghttp2 with DEBUGBUILD (default is false)')",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "configure.py",
+        "line": "1897",
+        "content": "# TODO(refack): fix this when implementing embedded code-cache when cross-compiling.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "configure.py",
+        "line": "2169",
+        "content": "# TODO(richardlau): Temporal objects in V8 currently reference a private",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "configure.py",
+        "line": "2652",
+        "content": "# this creates a variable icu_src_XXX for each of the subdirs",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "lib/_http_common.js",
+        "line": "183",
+        "content": "// TODO: All parser data should be attached to a",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "lib/_http_common.js",
+        "line": "308",
+        "content": "CRLF: '\\r\\n', // TODO: Deprecate this.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "lib/buffer.js",
+        "line": "185",
+        "content": "// TODO(legendecas): ArrayBuffer.[[ArrayBufferDetachKey]] is not been serialized.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "lib/buffer.js",
+        "line": "625",
+        "content": "// TODO(BridgeAR): This should not be of type ERR_INVALID_ARG_TYPE.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "lib/buffer.js",
+        "line": "651",
+        "content": "// TODO(BridgeAR): This should not be of type ERR_INVALID_ARG_TYPE.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "lib/buffer.js",
+        "line": "865",
+        "content": "// TODO (ronag): Makes more sense to throw here.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "lib/buffer.js",
+        "line": "1408",
+        "content": "// TODO(@anonrig): Throw correct error in here.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "lib/_http_incoming.js",
+        "line": "296",
+        "content": "// TODO: perhaps http_parser could be returning both raw and lowercased versions",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "lib/timers.js",
+        "line": "86",
+        "content": "// TODO: Long-term this could instead be handled by creating an internal",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "lib/_http_agent.js",
+        "line": "142",
+        "content": "// TODO(ronag): socket.destroy(err) might have been called",
+        "severity": "medium"
+      }
+    ],
+    "total_found": 31
+  },
+  {
+    "repo": "golang/go",
+    "url": "https://github.com/golang/go",
+    "language": "go",
+    "issues": [
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/README.md",
+        "line": "27",
+        "content": "At a minimum, that file should contain either a full sentence or a TODO,",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/README.md",
+        "line": "38",
+        "content": "flagged as a TODO by the automated tooling. That is true even for proposals that add API.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/asm.html",
+        "line": "648",
+        "content": "(The architecture-independent <code>AXXX</code>, defined in the",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/next/4-runtime.md",
+        "line": "7",
+        "content": "the header line. This behavior can be disabled with `GODEBUG=tracebacklabels=0`",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/godebug.md",
+        "line": "2",
+        "content": "title: \"Go, Backwards Compatibility, and GODEBUG\"",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/godebug.md",
+        "line": "8",
+        "content": "because it documents the full list of known GODEBUG settings,",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/godebug.md",
+        "line": "23",
+        "content": "Even so, Go provides a mechanism called GODEBUG to",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/godebug.md",
+        "line": "27",
+        "content": "A GODEBUG setting is a `key=value` pair",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/godebug.md",
+        "line": "29",
+        "content": "The environment variable `GODEBUG`",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/godebug.md",
+        "line": "33",
+        "content": "GODEBUG=http2client=0,http2server=0",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/godebug.md",
+        "line": "37",
+        "content": "Unrecognized settings in the `GODEBUG` environment variable are ignored.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/godebug.md",
+        "line": "38",
+        "content": "It is also possible to set the default `GODEBUG` for a given program",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/godebug.md",
+        "line": "45",
+        "content": "we define a new GODEBUG setting that",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/godebug.md",
+        "line": "47",
+        "content": "A GODEBUG setting may not be added if doing so is infeasible,",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "doc/godebug.md",
+        "line": "50",
+        "content": "GODEBUG settings added for compatibility will be maintained",
+        "severity": "medium"
+      }
+    ],
+    "total_found": 29
+  },
+  {
+    "repo": "rust-lang/rust",
+    "url": "https://github.com/rust-lang/rust",
+    "language": "rust",
+    "issues": [
+      {
+        "type": "TODO/FIXME",
+        "file": "bootstrap.example.toml",
+        "line": "697",
+        "content": "# FIXME(#61117): Some tests fail when this option is enabled.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": ".github/ISSUE_TEMPLATE/library_tracking_issue.md",
+        "line": "4",
+        "content": "title: Tracking Issue for XXX",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": ".github/ISSUE_TEMPLATE/tracking_issue_future.md",
+        "line": "4",
+        "content": "title: Tracking Issue for future-incompatibility lint XXX",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": ".github/ISSUE_TEMPLATE/tracking_issue.md",
+        "line": "4",
+        "content": "title: Tracking Issue for XXX",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": ".github/ISSUE_TEMPLATE/tracking_issue.md",
+        "line": "22",
+        "content": "This is a tracking issue for the RFC \"XXX\" (rust-lang/rfcs#NNN).",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": ".github/ISSUE_TEMPLATE/tracking_issue.md",
+        "line": "41",
+        "content": "- [ ] Implement the RFC (cc @rust-lang/XXX -- can anyone write up mentoring",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/ci/publish_toolstate.sh",
+        "line": "11",
+        "content": "export MESSAGE_FILE=$(mktemp -t msg.XXXXXX)",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/ci/scripts/install-sccache.sh",
+        "line": "21",
+        "content": "# FIXME: we should probably install sccache outside the containers and then",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/ci/run.sh",
+        "line": "137",
+        "content": "if [ \"$DEPLOY_ALT\" != \"\" ] && [ \"$NO_DEBUG_ASSERTIONS\" = \"\" ]; then",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/ci/run.sh",
+        "line": "145",
+        "content": "if [ \"$NO_DEBUG_ASSERTIONS\" = \"\" ]; then",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/ci/docker/scripts/build-gcc.sh",
+        "line": "13",
+        "content": "# FIXME(#49246): Remove the `sed` below.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/ci/docker/scripts/build-gcc.sh",
+        "line": "55",
+        "content": "# FIXME: clang doesn't find 32-bit libraries in /rustroot/lib,",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/ci/docker/scripts/solaris-toolchain.sh",
+        "line": "85",
+        "content": "symbol itself.  FIXME: What if it isn't?  */",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/ci/docker/host-x86_64/dist-i586-gnu-i586-i686-musl/Dockerfile",
+        "line": "52",
+        "content": "# FIXME: musl really shouldn't be linking libgcc_s.so, as it's linked to glibc,",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "src/ci/docker/host-x86_64/x86_64-gnu-tools/Dockerfile",
+        "line": "85",
+        "content": "# FIXME(#133381): currently rustc alt builds do *not* have rustc debug",
+        "severity": "medium"
+      }
+    ],
+    "total_found": 22
+  },
+  {
+    "repo": "django/django",
+    "url": "https://github.com/django/django",
+    "language": "python",
+    "issues": [
+      {
+        "type": "Pickle usage",
+        "file": "docs/conf.py",
+        "severity": "high",
+        "description": "pickle can execute arbitrary code - security risk"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "scripts/manage_translations.py",
+        "line": "131",
+        "content": "local_lang = lang  # XXX: LANG_OVERRIDES.get(lang, lang)",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "scripts/manage_translations.py",
+        "line": "245",
+        "content": "# TODO: merge first with the latest en catalog",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "scripts/pr_quality/check_pr.py",
+        "line": "66",
+        "content": "logger.setLevel(logging.DEBUG)",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "scripts/pr_quality/check_pr.py",
+        "line": "72",
+        "content": "logging.DEBUG: \"::debug::\",",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "docs/internals/howto-release-django.txt",
+        "line": "345",
+        "content": "a ``Refs #XXXXX --`` prefix linking to the original ticket where the",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "docs/internals/howto-release-django.txt",
+        "line": "553",
+        "content": "the ID ``XXXXXXXXXXXXXXXX`` and can be imported from the MIT",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "docs/internals/howto-release-django.txt",
+        "line": "557",
+        "content": "gpg --keyserver pgp.mit.edu --recv-key XXXXXXXXXXXXXXXX",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "docs/internals/deprecation.txt",
+        "line": "846",
+        "content": "* ``TEMPLATE_DEBUG``",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "docs/internals/contributing/committing-code.txt",
+        "line": "58",
+        "content": "$ git merge --ff-only pr/XXXX",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "docs/releases/1.8.txt",
+        "line": "463",
+        "content": "exception in :setting:`DEBUG` mode.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "docs/releases/1.8.txt",
+        "line": "587",
+        "content": "* If :setting:`DEBUG` is ``True`` and a request raises a",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "docs/releases/1.8.txt",
+        "line": "1021",
+        "content": "* ``BaseDatabaseXXX`` classes have been moved to ``django.db.backends.base``.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "docs/releases/1.8.txt",
+        "line": "1160",
+        "content": "exceptions when :setting:`DEBUG` is ``True``.",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "docs/releases/1.8.txt",
+        "line": "1320",
+        "content": "* ``TEMPLATE_DEBUG``",
+        "severity": "medium"
+      }
+    ],
+    "total_found": 30
+  },
+  {
+    "repo": "apache/airflow",
+    "url": "https://github.com/apache/airflow",
+    "language": "python",
+    "issues": [
+      {
+        "type": "Pickle usage",
+        "file": "dev/stats/get_important_pr_candidates.py",
+        "severity": "high",
+        "description": "pickle can execute arbitrary code - security risk"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "Dockerfile.ci",
+        "line": "1308",
+        "content": "if [[ ${BREEZE_DEBUG_CELERY_WORKER=} == \"true\" ]]; then",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "dev/README_RELEASE_HELM_CHART.md",
+        "line": "497",
+        "content": "<TODO COPY LINK TO THE ISSUE CREATED>",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "dev/airflow_perf/sql_queries.py",
+        "line": "34",
+        "content": "os.environ[\"AIRFLOW__DEBUG__SQLALCHEMY_STATS\"] = \"True\"",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "dev/airflow_perf/sql_queries.py",
+        "line": "42",
+        "content": "os.environ[\"AIRFLOW__LOGGING__LOGGING_CONFIG_CLASS\"] = \"scripts.perf.sql_queries.DEBUG_LOGGING_CONFI",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "dev/airflow_perf/sql_queries.py",
+        "line": "44",
+        "content": "DEBUG_LOGGING_CONFIG = {",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "dev/ide_setup/setup_vscode.py",
+        "line": "33",
+        "content": "DEBUG_PORTS = {",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "dev/ide_setup/setup_vscode.py",
+        "line": "73",
+        "content": "for component, port in DEBUG_PORTS.items():",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "dev/ide_setup/setup_vscode.py",
+        "line": "85",
+        "content": "for component, port in DEBUG_PORTS.items():",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "dev/ide_setup/setup_vscode.py",
+        "line": "105",
+        "content": "for component, port in DEBUG_PORTS.items():",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "dev/breeze/doc/10_ui_tasks.rst",
+        "line": "57",
+        "content": "* TODO markers indicating incomplete translations",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "dev/breeze/doc/10_ui_tasks.rst",
+        "line": "80",
+        "content": "# Add missing translations with TODO markers",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "dev/breeze/doc/images/output_ui_check-translation-completeness.svg",
+        "line": "109",
+        "content": "</text><text class=\"breeze-ui-check-translation-completeness-r5\" x=\"0\" y=\"190.8\" textLength=\"12.2\" c",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "dev/breeze/doc/images/output_k8s_dev.svg",
+        "line": "151",
+        "content": "</text><text class=\"breeze-k8s-dev-r5\" x=\"0\" y=\"337.2\" textLength=\"12.2\" clip-path=\"url(#breeze-k8s-",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "dev/breeze/src/airflow_breeze/utils/selective_checks.py",
+        "line": "81",
+        "content": "DEBUG_CI_RESOURCES_LABEL = \"debug ci resources\"",
+        "severity": "medium"
+      }
+    ],
+    "total_found": 37
+  },
+  {
+    "repo": "elasticsearch/elasticsearch",
+    "url": "https://github.com/elasticsearch/elasticsearch",
+    "language": "java",
+    "issues": [
+      {
+        "type": "TODO/FIXME",
+        "file": "gradlew.bat",
+        "line": "19",
+        "content": "@if \"%DEBUG%\"==\"\" @echo off",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "x-pack/qa/rolling-upgrade/build.gradle",
+        "line": "105",
+        "content": "// TODO move this out into a separate test suite, since operator settings are not relevant for most ",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "x-pack/qa/rolling-upgrade/build.gradle",
+        "line": "120",
+        "content": "setting 'logger.org.elasticsearch.xpack.watcher', 'DEBUG'",
+        "severity": "medium"
+      },
+      {
+        "type": "TODO/FIXME",
+        "file": "x-pack/qa/full-cluster-restart/build.gradle",
+        "line": "15",
+        "content": "// TODO: Remove core dependency and change tests to not use builders that are part of xpack-core.",
+        "severity": "medium"
+      },
+      {
+        "type": "Skipped/Pending test",
+        "file": ".buildkite/scripts/pull-request/pipeline.test.ts",
+        "line": "40",
+        "severity": "medium",
+        "description": "test(\"should generate correct pipelines with a different branch that is not skip"
+      }
+    ],
+    "total_found": 5
+  }
+]
